@@ -58,7 +58,33 @@
     <li>Push rice to one side and add beaten eggs to the other side, scramble quickly then toss in with the rice mixture. Stir in the soy sauce and sesame oil.</li>
     <li>Remove from the heat and toss in the scallions, if using. Enjoy!</li>
   </section>
+  <section>
+    <form action="/reviews" method="post">
+      <label for="name">Name</label>
+      <input id="name" type="text" name="name">
+      <label for="rating">Rating</label>
+      <input type="radio" name="rating" value="1" checked = true>1
+      <input type="radio" name="rating" value="2">2
+      <input type="radio" name="rating" value="3">3
+      <input type="radio" name="rating" value="4">4
+      <input type="radio" name="rating" value="5">5
+      <label for="cooking expertise">Cooking Expertise</label>
 
+      <select id="expertise" name="expertise">
+
+      <option value="Select Cooking Expertise" disabled="true" selected="true">Select Cooking Expertise</option>
+      <option value="Sometimes Cook">Sometimes Cook</option>
+      <option value="Cook Everyday">Cook Everyday</option>
+      <option value="Cooking is a Hobby">Cooking is a Hobby</option>
+      <option value="Profressional Chef">Professional Chef</option>
+      </select>
+
+      <label>Review
+        <textarea name="review" rows="6" cols="80"></textarea>
+      </label>
+      <input type="submit" value="Submit Review">
+    </form>
+  </section>
   <footer>
     <p>Recipe from: <a href="http://skinnyms.com/clean-eating-chicken-fried-rice-recipe/">Skinnyms</a> </p>
     # Author of recipe is SkinnyMs
