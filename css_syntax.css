@@ -1,9 +1,9 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #FEFFF1;
+  background: #4AE583;
 }
 
-h1 {
+h1  {
   font-size: 38px;
 }
 
@@ -11,26 +11,19 @@ h2 {
   font-size: 32px;
 }
 
+.ingredients-list {
+  list-style: square inside;
+}
 
-ul li a {
-  text-decoration: none;
-  color: inherit;
+ol {
+  list-style: lower-alpha inside;
 }
 
 header > img {
   width: 100px;
 }
 
-.ingredients-list {
-
-  list-style: square inside;
-}
-
-ol {
-  list-style: upper-roman inside;
-}
-
-.user_review h4 {
-  font-size: 18px;
-  font-weight: bold;
+ul li a {
+  text-decoration: none;
+  color: inherit;
 }
